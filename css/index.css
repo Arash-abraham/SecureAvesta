@@ -1,5 +1,7 @@
 @import './variables.css';
 @import './font.css';
+@import './top-bar.css';
+
 /* Default Styles */
 
 html {
@@ -36,47 +38,3 @@ i {
 }
 
 /* Finish Defult Styles */
-
-/* Start Top-Bar Style  */
-
-.top-bar {
-    color: var(--dark-color);
-    padding: 2rem;
-    background-color: #f0f2f7;
-}
-
-.top-bar__content {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 1.5rem;
-}
-
-.top-bar__right {
-    display: flex;
-}
-
-.top-bar__menu {
-    display: flex;
-}
-
-
-.top-bar__link {
-    color: black;
-    transition: all 480ms ease;
-    font-size: 1.5rem;
-    padding: 0 1rem;
-}
-
-.top-bar__link:hover {
-    color: var(--primary-color);
-}
-
-.top-bar__left {
-    display: flex;
-}
-
-.top-bar_email-icon , .top-bar_phone-icon {
-    color: var(--primary-color);
-    padding-left: 10px;
-}
-/* Finish Top-Bar Style  */
