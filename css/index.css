@@ -39,4 +39,32 @@ i {
 
 /* Start Top-Bar Style  */
 
+.top-bar {
+    color: var(--dark-color);
+    padding: 2rem;
+    background-color: #f0f2f7;
+}
+
+.top-bar__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.top-bar__right {
+    display: flex;
+}
+
+.top-bar__menu {
+    display: flex;
+}
+
+
+
+
+
+
+.top-bar__left {
+    display: flex;
+}
 /* Finish Top-Bar Style  */
