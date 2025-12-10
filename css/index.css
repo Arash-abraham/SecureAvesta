@@ -29,7 +29,7 @@ a {
 
 a:hover {
     color: #F54927;
-} 
+}
 
 i {
     user-select: none;
@@ -60,11 +60,23 @@ i {
 }
 
 
+.top-bar__link {
+    color: black;
+    transition: all 480ms ease;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
 
-
-
+.top-bar__link:hover {
+    color: var(--primary-color);
+}
 
 .top-bar__left {
     display: flex;
+}
+
+.top-bar_email-icon , .top-bar_phone-icon {
+    color: var(--primary-color);
+    padding-left: 10px;
 }
 /* Finish Top-Bar Style  */
